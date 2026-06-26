@@ -14,11 +14,22 @@ import javax.swing.JOptionPane;
  */
 public class Conexion_model {
     
+    private static Conexion_model object;
     Connection con;
     
     String url = "jdbc:mysql://localhost:3306/reportes_financieros";
     String user = "root";
     String password = "";
+    
+    private Conexion_model(){};
+    
+    public static Conexion_model getConexion(){
+    
+        if(object == null){
+            object = new Conexion_model();
+        }
+        return object;
+    }
     
     public Connection getConection(){
         try{

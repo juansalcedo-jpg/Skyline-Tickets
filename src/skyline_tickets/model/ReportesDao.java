@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
  */
 public class ReportesDao {
     
-    Conexion_model conectar = new Conexion_model();
+    Conexion_model conectar = Conexion_model.getConexion();
     Connection con;
 
     PreparedStatement ps;
