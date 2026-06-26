@@ -25,7 +25,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author juans
  */
-public class Apartado_reportes extends Interfaz_vista_abtractas{
+public class Apartado_reportes_view extends Interfaz_vista_abtractas{
     
     public Container contenedor;
     public JPanel panel1,panel2,panelBotones,panelInferior;
@@ -37,7 +37,7 @@ public class Apartado_reportes extends Interfaz_vista_abtractas{
     public JTable tabla;
     private String tituloReportes;
     
-    public Apartado_reportes(){
+    public Apartado_reportes_view(){
         String nombre = "REPORTES FINANCIEROS";
         super(nombre);
         contenedor = super.getContenedor();

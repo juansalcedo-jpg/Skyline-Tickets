@@ -5,7 +5,7 @@
 package skyline_tickets.view;
 
 import javax.swing.JFrame;
-import skyline_tickets.controller.Controlador_reportes;
+import skyline_tickets.controller.Reportes_controlador;
 import skyline_tickets.model.ReportesDao;
 
 /**
@@ -19,9 +19,9 @@ public class UsaVista {
      */
     public static void main(String[] args) {
         
-        Apartado_reportes vista = new Apartado_reportes();
+        Apartado_reportes_view vista = new Apartado_reportes_view();
         ReportesDao dao = new ReportesDao();
-        Controlador_reportes controlador = new Controlador_reportes(vista, dao);
+        Reportes_controlador controlador = new Reportes_controlador(vista, dao);
         vista.setVisible(true);
         vista.setExtendedState(javax.swing.JFrame.MAXIMIZED_BOTH);
         

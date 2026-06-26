@@ -20,13 +20,13 @@ import javax.swing.JPanel;
  *
  * @author juans
  */
-public class ViewApartadoReportes extends Interfaz_vista_abtractas{
+public class ApartadoReportes_view extends Interfaz_vista_abtractas{
     
     public Container contenedor;
     public JPanel panel1,panel2,panelbotones,panelcentro;
     public JButton Rfinanciero,Roperacional,Rvuelos;
     
-    public ViewApartadoReportes(){
+    public ApartadoReportes_view(){
         String nombre = "Pagina Principal";
         super(nombre);
         contenedor = super.getContenedor();

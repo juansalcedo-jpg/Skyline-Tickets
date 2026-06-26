@@ -9,23 +9,23 @@ import java.awt.event.ActionListener;
 import java.util.List;
 import javax.swing.table.DefaultTableModel;
 import skyline_tickets.model.ReportesDao;
-import skyline_tickets.view.Apartado_reportes;
+import skyline_tickets.view.Apartado_reportes_view;
 
 /**
  *
  * @author juans
  */
-public class Controlador_reportes implements ActionListener{
+public class Reportes_controlador implements ActionListener{
     
     public ReportesDao persona = new ReportesDao();
-    public Apartado_reportes vista = new Apartado_reportes();
+    public Apartado_reportes_view vista = new Apartado_reportes_view();
     DefaultTableModel modelo = new DefaultTableModel();
-    CreadorPdf_reportes CrearPdf;
+    Reportes_creadorPdf CrearPdf;
     
-    public Controlador_reportes(Apartado_reportes vista, ReportesDao dao) {
+    public Reportes_controlador(Apartado_reportes_view vista, ReportesDao dao) {
         this.vista = vista;
         this.persona = dao;
-        this.CrearPdf = new CreadorPdf_reportes();
+        this.CrearPdf = new Reportes_creadorPdf();
         this.vista.btnExportar.addActionListener(this);
         cargarTabla();
     }

@@ -25,11 +25,11 @@ import javax.swing.filechooser.FileFilter;
  *
  * @author juans
  */
-public class CreadorPdf_reportes {
+public class Reportes_creadorPdf {
     
     
     
-    public CreadorPdf_reportes(){
+    public Reportes_creadorPdf(){
         
     }
     

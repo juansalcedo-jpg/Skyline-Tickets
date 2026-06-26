@@ -4,17 +4,17 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/view/Interfaz_vista_abtractas.java</file>
-            <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/view/Apartado_reportes.java</file>
+            <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/view/Apartado_reportes_view.java</file>
             <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/view/UsaVista.java</file>
-            <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/model/Conexion.java</file>
+            <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/model/Conexion_model.java</file>
             <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/model/ReportesDao.java</file>
-            <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/controller/CreadorPdf_reportes.java</file>
+            <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/controller/Reportes_creadorPdf.java</file>
             <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/view/ViewPrincipal.java</file>
-            <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/view/PanelConFondo.java</file>
-            <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/view/ViewApartadoReportes.java</file>
+            <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/view/PanelConFondo_view.java</file>
+            <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/view/ApartadoReportes_view.java</file>
             <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/view/UsaVistaPrin.java</file>
-            <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/controller/Controlador_apartado_reportes.java</file>
-            <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/controller/Controlador_reportes.java</file>
+            <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/controller/Apartado_reportes_Controller.java</file>
+            <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/controller/Reportes_controlador.java</file>
             <file>file:/C:/Users/juans/Documents/NetBeansProjects/Skyline_Tickets/src/skyline_tickets/view/TipoReportes.java</file>
         </group>
     </open-files>

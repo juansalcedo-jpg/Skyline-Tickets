@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  *
  * @author juans
  */
-public class Conexion {
+public class Conexion_model {
     
     Connection con;
     

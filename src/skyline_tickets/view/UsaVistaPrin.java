@@ -4,7 +4,7 @@
  */
 package skyline_tickets.view;
 
-import skyline_tickets.controller.Controlador_apartado_reportes;
+import skyline_tickets.controller.Apartado_reportes_Controller;
 
 
 
@@ -19,9 +19,9 @@ public class UsaVistaPrin {
      */
     public static void main(String[] args){
         
-        ViewApartadoReportes vistap = new ViewApartadoReportes();
-        Apartado_reportes vistar = new Apartado_reportes();
-        Controlador_apartado_reportes vis = new Controlador_apartado_reportes(vistap,vistar);
+        ApartadoReportes_view vistap = new ApartadoReportes_view();
+        Apartado_reportes_view vistar = new Apartado_reportes_view();
+        Apartado_reportes_Controller vis = new Apartado_reportes_Controller(vistap,vistar);
         vistap.setVisible(true);
         vistap.setExtendedState(javax.swing.JFrame.MAXIMIZED_BOTH);
         
